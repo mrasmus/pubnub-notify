@@ -1,4 +1,4 @@
-var channel = "growl-notify";
+var channel = "notify";
 
 var pubnub = PUBNUB.init({
     publish_key: publish_key, 

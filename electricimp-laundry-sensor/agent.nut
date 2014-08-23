@@ -288,7 +288,7 @@ const SUBKEY = "sub-c-********-****-****-****-************";                // s
 const SECRETKEY = "sec-c-************************************************"; // your secret key
  
 // create channels with our agentID in them
-growlChannel <- "growl-notify";
+growlChannel <- "notify";
  
 // initialize the pubnub object
 pubnub <- PubNub(PUBKEY, SUBKEY, SECRETKEY);

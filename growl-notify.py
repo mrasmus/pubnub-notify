@@ -4,7 +4,7 @@ from gntp import notifier
 from datetime import datetime
 from pnsettings import publish_key as p, subscribe_key as s
 
-channel = 'growl-notify'
+channel = 'notify'
 
 pubnub = Pubnub(publish_key=p, subscribe_key=s)
 
