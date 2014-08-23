@@ -1,0 +1,27 @@
+{
+  "background": {
+    "scripts": [
+        "pubnub.min.js",
+        "pnsettings.js",
+        "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "icon_128g.png"
+  },
+  "default_locale": "en",
+  "description": "PubNub-based Notification Service",
+  "icons": {
+    "128": "icon_128.png",
+    "128g": "icon_128g.png",
+    "600": "icon_600.png"
+  },
+  "name": "PubNubNotify",
+  "permissions": [
+    "storage",
+    "notifications",
+    "*://*.pubnub.com/"
+   ],
+  "version": "1.0.0",
+  "manifest_version": 2
+}
