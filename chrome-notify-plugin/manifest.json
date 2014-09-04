@@ -7,7 +7,8 @@
     ]
   },
   "browser_action": {
-    "default_icon": "icon_128g.png"
+    "default_icon": "icon_128g.png",
+    "default_popup": "popup.html"
   },
   "default_locale": "en",
   "description": "PubNub-based Notification Service",
